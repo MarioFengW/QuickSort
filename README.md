@@ -19,9 +19,11 @@ The code is structured into the following main components:
 - **Driver Code**: Handles input/output and initiates the sorting process.
 
 ## Time and Space Complexity
-Time Complexity:
-- Best case: O(n log n) – Occurs when the pivot divides the array into two equal parts.
-- Average case: O(n log n) – Similar to the best case in most random arrays.
-- Worst case: O(n^2) – Happens when the pivot consistently chooses the smallest or largest element, such as when sorting an already sorted array.
-Space Complexity:
-- Space Complexity: O(log n) – This is due to the recursive function calls for each partition, which uses a recursion stack. However, the algorithm sorts in place and does not require additional memory allocation for data storage beyond the recursion stack.
+
+- **Time Complexity**:
+  - **Best case**: `O(n log n)` – Occurs when the pivot divides the array into two equal parts.
+  - **Average case**: `O(n log n)` – Similar to the best case in most random arrays.
+  - **Worst case**: `O(n^2)` – Happens when the pivot consistently chooses the smallest or largest element, such as when sorting an already sorted array.
+
+- **Space Complexity**:
+  - **Space Complexity**: `O(log n)` – This is due to the recursive function calls for each partition, which uses a recursion stack. However, the algorithm sorts in place and does not require additional memory allocation for data storage beyond the recursion stack.
