@@ -27,3 +27,8 @@ The code is structured into the following main components:
 
 - **Space Complexity**:
   - **Space Complexity**: `O(log n)` – This is due to the recursive function calls for each partition, which uses a recursion stack. However, the algorithm sorts in place and does not require additional memory allocation for data storage beyond the recursion stack.
+ 
+## How to run:
+1. Clone the repository to your local machine using Git:
+```bash
+git clone https://github.com/yourusername/QuickSort.git
